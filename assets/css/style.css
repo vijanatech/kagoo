@@ -473,9 +473,9 @@ h6 {
     padding-top: 80px;
   }
 
-  #hero .animated {
+  /* #hero .animated {
     animation: none;
-  }
+  } */
 
   #hero .hero-img {
     text-align: center;
@@ -828,6 +828,17 @@ section {
   }
 }
 
+@media screen and (max-width: 1080px) {
+  .about .play-btn {
+    display: none;
+  }
+}
+
+/* .cta-section .btn {
+  background: #000000;
+  color: #fff;
+} */
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -967,7 +978,7 @@ section {
 .cta-section .btn {
   background: #000000;
   color: #fff;
-} 
+}
 
 /*--------------------------------------------------------------
 # Gallery
